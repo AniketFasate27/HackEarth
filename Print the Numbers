@@ -7,3 +7,11 @@ n = int(input())
 a = list(map(str,input().split()))
    
 print(' '.join(a))
+
+
+# Write your code here
+n = int(input())
+a = list(input().split())
+   
+for i in a:
+    print(i,end= " ")
