@@ -1,0 +1,6 @@
+# Write your code here
+t = int(input())
+
+for i in range(t):
+    A,B,C = map(int,input().split())
+    print((abs((B-A)-(C-B))+1)//2)
