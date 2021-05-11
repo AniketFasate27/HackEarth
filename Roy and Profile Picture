@@ -1,0 +1,13 @@
+L = int(input())
+N = int(input())
+
+for i in range(0,N):
+    w,h = list(map(int,input().split()))
+
+    if w >= L and h >= L:
+        if w == h:
+            print("ACCEPTED")
+        else:
+            print("CROP IT")
+    else:
+        print("UPLOAD ANOTHER")
