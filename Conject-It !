@@ -10,3 +10,13 @@ for _ in range(t):
         else:
             n = 3*n+1
         
+
+# Write your code here
+t = int(input())
+while t:
+    n = int(input())
+    if n>=2:
+        print('YES')
+    else:
+        print('NO')
+    t -= 1
