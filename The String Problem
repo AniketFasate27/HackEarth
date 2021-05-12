@@ -1,0 +1,17 @@
+t=int(input(""))
+lst=['a','e','i','o','u']
+ls2=[]
+while(t>0):
+    s=input("")
+    s=s.lower()
+    for i in lst:
+        if i in s:
+            ls2.append(i)
+ 
+    if lst==ls2:
+        print("lovely string")
+    else:
+        print("ugly string")
+    
+    ls2.clear()
+    t=t-1
