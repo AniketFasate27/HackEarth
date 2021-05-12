@@ -1,0 +1,12 @@
+t = int(input())
+for _ in range(t):
+    n = int(input())
+    while(n>>0):
+        if(n%2==0):
+            n = n//2
+        elif(n==1):
+            print("YES")
+            break
+        else:
+            n = 3*n+1
+        
