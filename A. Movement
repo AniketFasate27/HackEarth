@@ -1,0 +1,8 @@
+n = int(input())
+
+x = n/5
+
+if (n%5 == 0):
+    print(int(x))
+elif (n%5 == 1 or 2 or 3 or 4):
+    print(int(x)+1)
