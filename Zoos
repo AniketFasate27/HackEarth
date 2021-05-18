@@ -1,0 +1,10 @@
+x = list(input())
+l = []
+
+l.append(x.count("z"))
+l.append(x.count("o"))
+
+if(l[1]==l[0]*2):
+    print("Yes")
+else:
+    print("No")
