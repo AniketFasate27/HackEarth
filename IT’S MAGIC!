@@ -1,0 +1,13 @@
+n= int(input())
+m = []
+a = list(map(int,input().split()))
+sum1 = sum(a)
+for i in range(len(a)):
+    if ((sum1-a[i])%7==0):
+        m.append(a[i])
+
+if (len(m)==0):
+    print("-1")
+else:
+    print(a.index(min(m)))
+    
