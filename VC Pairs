@@ -1,0 +1,14 @@
+# Write your code here
+t = int(input())
+
+v= ["a","e","i","o","u"]
+for i in range(0,t):
+	count = 0
+	n = int(input())
+	s = input().lower()
+	for i in range(n-1):
+		if s[i] not in v :
+			if s[i+1] in v:
+				count=count+1
+		
+	print(count)
