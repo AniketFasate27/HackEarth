@@ -1,0 +1,15 @@
+import re
+n = int(input())
+for _ in range(n):
+    m = input()
+    a = "789"
+    if len(m)==10:
+        if m[0] in a:
+            if re.search('[a-zA-Z]', m):
+                print("NO")
+            else:
+                print("YES")
+        else:
+            print("NO")
+    else:
+        print("NO")
