@@ -1,0 +1,40 @@
+'''
+# Sample code to perform I/O:
+ 
+name = input()                  # Reading input from STDIN
+print('Hi, %s.' % name)         # Writing output to STDOUT
+ 
+# Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
+'''
+ 
+# Write your code here
+DNA = input()
+ 
+RNA = ''
+ 
+for i in DNA:
+ 
+  if i == 'G':
+ 
+     RNA += 'C'
+ 
+  elif i == 'C':
+ 
+     RNA += 'G'
+ 
+  elif i == 'T':
+ 
+     RNA += 'A'
+ 
+  elif i == 'A':
+ 
+     RNA += 'U'
+ 
+  else:
+ 
+     RNA = "Invalid Input"
+ 
+     break
+ 
+ 
+print(RNA)
