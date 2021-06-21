@@ -1,0 +1,5 @@
+from itertools import combinations_with_replacement
+word,num = input().split()
+comb = combinations_with_replacement(sorted(word),int(num))
+for i in comb:
+    print("".join(i))
